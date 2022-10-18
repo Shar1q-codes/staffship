@@ -1,38 +1,93 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* ******** Header Component *********** */
+
+.header-component{
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-img{
+  background-image: url('./Components/Images/hero.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container{
+  position: absolute;
+  top: 0;
   display: flex;
-  flex-direction: column;
+  z-index: 2;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.logo img{
+  height: 170px;
+  border-radius: 50%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50vw;
+  font-size: 20px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.header li{
+  list-style-type: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header li:hover{
+  background-color: rgb(238, 235, 232);
+}
+
+.header a{
+  text-decoration: none;
+  color: rgb(26, 24, 23);
+  font-weight: bold;
+}
+
+.carousel{
+  position: absolute;
+  top: -65%;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+
+.carousel h1{
+  font-size: 50px;
+}
+
+.carousel p{
+  font-size: 25px;
+}
+
+/* *********** Home Component *********** */
+
+.home-component{
+  margin-top: 10px;
+}
+
+.trusted-by-container p{
+  font-size: 20px;
 }
