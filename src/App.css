@@ -38,13 +38,15 @@
 .nav-bar li{
   list-style: none;
   padding: 10px 20px;
+  margin: 4px;
 }
 
 .nav-bar li:hover{
-  background-color: gray;
-  color: blueviolet;
+  color: aqua;
+  text-shadow:  0 0 .125em white, 0 0 1em aqua;
   border-radius: 10px;
  
+ box-shadow: 0 0 .125em white, 0 0 1em aqua;
 }
 
 .nav-bar a{
@@ -70,17 +72,127 @@
   
 }
 
-.video{
-  height: 300px;
-  width: 400px;
-  border: 2px solid red;
+
+/* ************** Home Component **************** */
+
+.bg-img{
+  position: relative;
+  top: -99px;
+  z-index: -1;
+  background-color: black;
+  
+  height: 100vh;
+}
+
+.carousel{
+  position: absolute;
+  color: white;
+  height: 150px;
+  top: -280px;
+  width: 50px;
+  
+}
+
+.carousel-main{
+  position: absolute;
+  left: 300px;
+  width: 700px;
+}
+
+.hire-buttons{
+  position: absolute;
+  top: 440px;
+  left: 400px;
+  
+  z-index: 1;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hire-buttons button{
+  padding: 10px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  color: aqua;
+  background-color: black;
+  border: 3px solid aqua;
+  position: relative;
+  border-radius: .25em;
+  text-shadow: 0 0 .125em white, 0 0 1em aqua;
+  box-shadow: 0 0 .125em white, 0 0 1em aqua;
+}
+
+.hire-btn::before{
+  pointer-events: none;
+  content: "";
+  background-color: aqua;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+
+  transform: perspective(1em) rotateX(40deg) scale(1, .35);
+  filter: blur(1.5em);
+  opacity: .7;
+}
+
+.hire-btn::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 0 2em .5em aqua;
+  opacity: 0;
+  transition: opacity 200ms linear;
 }
 
 
+.hire-btn:hover::after{
+  opacity: 0.5;
+}
+
+.hire-btn:hover{
+  background-color: aqua;
+  color: black;
+}
+
+/* .home-component{
+  border: 1px solid red;
+  height: 700px;
+} */
 
 
 
+/* ******************* About US *************** */
 
+.about-component{
+  /* border: 1px solid red; */
+  background-color: black;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.aboutus-container{
+  margin: 40px auto;
+}
+
+.about-info{
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 10 20px;
+  font-size: 18px;
+  color: aqua;
+  background-color: black;
+  /* box-shadow: 0 0 2em .25em white; */
+}
 
 
 
@@ -91,6 +203,13 @@
 
 /* Mobile Devices */
 @media only screen  and (max-width:480px){
+  
+  
+  
+  /* ************ Header Component ***************** */
+
+
+
   .toggle{
     display: flex;
   }
@@ -117,12 +236,64 @@
 
   .header-container{
     flex-direction: column;
+  }
+
+
+  /* ***************** Home Component ******************** */
+
+
+
+
+  .bg-img{
+    width: 100%;
+    
+    height: 200vh;
+  }
+
+  .carousel{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+  }
+
+  .carousel-main{
+    position: absolute;
+    top: -110vh;
+    left: 0;
+    width: 100%;
+  }
+
+
+  .hire-buttons{
+    position: absolute;
+    top: 103vh;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+  }
+
+  .hire-btn{
+    height: 70px;
+    padding: 40px;
+    
   }
 }
 
 
 /* Ipads & Tablets */
 @media only screen and (min-width:481px) and (max-width:768px){
+
+
+
+   /* ************ Header Component ***************** */
+
+
+
+
   .toggle{
     display: flex;
   }
@@ -150,13 +321,80 @@
   .header-container{
     flex-direction: column;
   }
+
+
+   /* ***************** Home Component ******************** */
+
+  .bg-img{
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+  }
+
+  
+
+  .carousel{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+  }
+
+  .carousel-main{
+    position: absolute;
+    top: 900px;
+    left: 0;
+    width: 100%;
+  }
+
+
+  .hire-buttons{
+    position: absolute;
+    top: 103vh;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+  }
+
+  .hire-btn{
+    height: 70px;
+    padding: 40px;
+    
+  }
+
 }
 
 
 
 /* Small screens, laptops. */
 @media only screen and (min-width:769px) and (max-width:1024px){
-  
+  .carousel{
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+
+  }
+
+  .carousel-main{
+    position: absolute;
+    top: -500px;
+    left: 0;
+    width: 100%;
+  }
+
+  .hire-buttons{
+    position: absolute;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 
