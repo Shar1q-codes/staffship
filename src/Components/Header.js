@@ -1,45 +1,35 @@
-import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
+import React, { useRef } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
 import logo from './Images/logo.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 const Header = () => {
+  const navRef = useRef()
+
+  const showNav = ()=>{
+    navRef.current.classList.toggle('responsive-nav')
+  }
   return (
     <div className='header-component'>
-        <div className='bg-img'></div>
+        
         <div className='header-container'>
             <div className='logo'>
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" className='logo-img'/>
             </div>
-            <ul className='header'>
-                <Link to='/'><li>Home</li></Link> 
-                <Link to='/AboutUs'><li>About Us</li></Link>
-                <Link to='/OurServices'><li>Our Services</li></Link> 
-                <Link to='/ContactUs'><li>Contact Us</li></Link>
-            
+          <div className='toggle bar' onClick={showNav}>
+            <FaBars />
+          </div>
+            <ul className='nav-bar' ref={navRef}>
+                <Link to='/'><li className='noselect'>Home</li></Link> 
+                <Link to='/AboutUs'><li className='noselect'>About Us</li></Link>
+                <Link to='/OurServices'><li className='noselect'>Our Services</li></Link> 
+                <Link to='/ContactUs'><li className='noselect'>Contact Us</li></Link>
+                <div className='toggle bar' onClick={showNav}>
+                  <FaTimes />
+                </div>
             </ul>
-        </div>
-        <div className='carousel'>
-            <Carousel  autoPlay infiniteLoop showStatus={false} interval={2000} showArrows={false} stopOnHover={false} transitionTime={1}>
-                <div>
-                    <h1>Khaleel</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt.</p>
-                </div>
-                <div>
-                    <h1>Shariq</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt.</p>
-                </div>
-                <div>
-                    <h1>Saad</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt.</p>
-                </div>
-                <div>
-                    <h1>Mahboob</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, nesciunt.</p>
-                </div>
-            </Carousel>
-        </div>
+       </div>
     </div>
   )
 }

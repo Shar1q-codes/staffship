@@ -4,90 +4,151 @@
   box-sizing: border-box;
 }
 
-.App{
-  text-align: center;
-}
 
-
-/* ******** Header Component *********** */
-
-.header-component{
-  height: 100vh;
-}
-
-.bg-img{
-  background-image: url('./Components/Images/hero.jpg');
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.7;
-  z-index: -1;
-}
+/* ************** Header Component ************ */
 
 .header-container{
-  position: absolute;
-  top: 0;
   display: flex;
-  z-index: 2;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
+  margin: 0 auto;
+  background-color: black;
   
 }
 
-.logo img{
-  height: 170px;
-  border-radius: 50%;
-}
-
-.header{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 50vw;
-  font-size: 20px;
+.logo{
+  flex: 2;
+  height: 100px;
+  width: 100px;
  
 }
 
-.header li{
-  list-style-type: none;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 20px;
+.logo-img{
+  height: 100px;
+  width: 100px;
 }
 
-.header li:hover{
-  background-color: rgb(238, 235, 232);
+.nav-bar{
+  display: flex;
+  justify-content: space-evenly;
+  flex: 3;
 }
 
-.header a{
+.nav-bar li{
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.nav-bar li:hover{
+  background-color: gray;
+  color: blueviolet;
+  border-radius: 10px;
+ 
+}
+
+.nav-bar a{
   text-decoration: none;
-  color: rgb(26, 24, 23);
-  font-weight: bold;
+  color: white;
 }
 
-.carousel{
+.toggle{
+  height: 40px;
+  width: 40px;
   position: absolute;
-  top: -65%;
-  width: 100%;
-  text-align: center;
-  height: 200px;
+  right: 30px;
+  cursor: pointer;
+  top: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 40px;
 }
 
-.carousel h1{
-  font-size: 50px;
+.bar{
+  color: white;
+  
 }
 
-.carousel p{
-  font-size: 25px;
+.video{
+  height: 300px;
+  width: 400px;
+  border: 2px solid red;
 }
 
-/* *********** Home Component *********** */
 
-.home-component{
-  margin-top: 10px;
+
+
+
+
+
+
+
+
+
+/* ************* Responsive CSS ************ */
+
+
+/* Mobile Devices */
+@media only screen  and (max-width:480px){
+  .toggle{
+    display: flex;
+  }
+
+  .nav-bar{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-container{
+    flex-direction: column;
+  }
 }
 
-.trusted-by-container p{
-  font-size: 20px;
+
+/* Ipads & Tablets */
+@media only screen and (min-width:481px) and (max-width:768px){
+  .toggle{
+    display: flex;
+  }
+
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    transform: translateY(-100vh);
+    background-color: black;
+    font-size: 20px;
+  }
+
+  .responsive-nav{
+    transform: none;
+  }
+
+  .header-container{
+    flex-direction: column;
+  }
+}
+
+
+
+/* Small screens, laptops. */
+@media only screen and (min-width:769px) and (max-width:1024px){
+  
+}
+
+
+
+/* Desktops, large screens. */
+@media only screen and (min-width:1025px) and (max-width:1200px){
+  
 }
