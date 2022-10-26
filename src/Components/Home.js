@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { motion } from 'framer-motion';
 // import { Link } from 'react-router-dom';
-// import comp from './Images/comp-logo.png'
+import comp from './Images/comp-logo.png'
 
 const Home = () => {
   return (
@@ -38,7 +38,7 @@ const Home = () => {
             <a href='https://us9.list-manage.com/contact-form?u=67bdb6c1de36a91d772aaedf0&form_id=256d1b86ad1816ddf1237848784ea6ac' target='_blank' rel="noopener noreferrer"><button className='hire-btn'>Hire Staffship</button></a>
                 <a href='https://www.surveymonkey.com/r/3ZFVY6L' target='_blank' rel="noopener noreferrer"><button className='hire-btn'>Join Staffship</button></a>
             </div>
-            {/* <div className="trusted-by-container">
+            <div className="trusted-by-container">
                 <p>TRUSTED BY</p>
                 <div className='trusted-images'>
                     <div className='trusted-image'>
@@ -72,7 +72,7 @@ const Home = () => {
                         <img src={comp} alt='comp' className='trusted-img'/>
                     </div>
                 </div>
-            </div> */}
+            </div>
         
     </motion.div>
   )

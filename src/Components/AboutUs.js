@@ -5,6 +5,7 @@ const AboutUs = () => {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className='about-component'>
       <div className='aboutus-container'>
+        <h1 className='about-info'>About StaffShip</h1>
         <p className='about-info'>Since our inception in 2021, Staff Ship IT Solutions and Services has grown steadily in the recruitment services space in India to become one of the preferred Talent Acquisition partners to organizations across different industries in their growth journey, whether they are a greenfield setup or large conglomerates.</p>
 
         <p className='about-info'>Anchored on the values of integrity, transparency and growth, Staff Ship IT Solutions and Services believes in keeping its promise in every initiative that it undertakes.</p>
