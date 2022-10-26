@@ -15,7 +15,7 @@ const Header = () => {
         
         <div className='header-container'>
             <div className='logo'>
-                <img src={logo} alt="logo" className='logo-img'/>
+                <Link to='/'><img src={logo} alt="logo" className='logo-img'/></Link>
             </div>
           <div className='toggle bar' onClick={showNav}>
             <FaBars />
