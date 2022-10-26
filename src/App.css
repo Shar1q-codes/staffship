@@ -382,6 +382,16 @@
   .trusted-by-container{
     top: 205vh;
   }
+
+
+
+  /* *******************Contact Component******************** */
+
+  .contact-container{
+    
+    width: 90%;
+    
+  }
 }
 
 
@@ -473,6 +483,12 @@
 
 
   /* ****************Contact component***************** */
+
+  .contact-container{
+    
+    width: 90%;
+    
+  }
 
   .linkedin{
     font-size: auto;
