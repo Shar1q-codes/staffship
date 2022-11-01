@@ -22,8 +22,8 @@ const Header = () => {
           </div>
             <ul className='nav-bar' ref={navRef} onClick={showNav}>
                 <Link to='/'><li className='noselect' >Home</li></Link> 
+                <Link to='/OurServices'><li className='noselect'>Our Services</li></Link>
                 <Link to='/AboutUs'><li className='noselect' >About Us</li></Link>
-                <Link to='/OurServices'><li className='noselect'>Our Services</li></Link> 
                 <Link to='/ContactUs'><li className='noselect'>Contact Us</li></Link>
                 <div className='toggle bar'>
                   <FaTimes />
