@@ -9,31 +9,76 @@ const Services = () => {
       <div className='services-container'>
         <div id='global'>
           <h1>Global Recruiting</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quisquam nulla dignissimos soluta cupiditate temporibus tempore maxime a illo deleniti nostrum, maiores alias quia laboriosam magnam magni similique fugit reiciendis repellat perspiciatis asperiores odit ex? Fugiat dignissimos distinctio saepe officiis corrupti cumque itaque ea, facere alias beatae odit, aliquam aut!</p>
+          <p>We specialize in Direct Hire, full time Global Management Consultants and Outsourcing executives.
+
+Staff Ship is affiliated with other Direct Hire recruiting firms, Reliable Services & Associates and Data Resources. Our staff of talented professionals has a wealth of recruiting experience to help you staff core positions within your valued organization.
+
+We provide skilled analyst to partner level candidates in over multiple business sectors such as Financial Services, Manufacturing, Communication & media, IT & Non-IT Solutions.
+
+Our primary candidate-focus is in Strategy & transformation, Practice Building and Solution Sales & Delivery with subject matter expertise in Business Solutions, ERP technology integrations and/or APO, BPO and ITO outsourcing. Our candidates understand the highly mobile, fast-paced lifestyle of top management consultants. They are driven to be leaders in their field and will only consider top brand name firms.
+</p>
         </div>
         <div id="staffsol">
-          <h1>Staffship & Solutions</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor ipsa enim exercitationem mollitia cumque similique fugit dignissimos eos provident eligendi eaque, quaerat, commodi harum! Blanditiis saepe, quaerat fuga laudantium beatae dolorum voluptas architecto labore provident voluptatum quo delectus autem deleniti earum dolore magni nam libero consectetur consequuntur veniam amet?</p>
+          <h1>Staffing & Solutions</h1>
+          <p>It's no secret that the staffing and solutions industry is in a state of flux.
+The traditional models of staffing and solutions providers are under pressure as companies look for more efficient, effective ways to get work done. At the same time, new entrants to the market are shaking things up with innovative approaches to staffing and solution provision.
+In this environment, it's more important than ever for companies to carefully consider their options when it comes to staffing and solutions. Here are some factors to keep in mind as you navigate the ever-changing landscape of staffing and solutions providers:
+1. The type of work you need to do: Not all staffing and solutions providers are created equal. Some specialize in certain types of work, such as IT or engineering, while others take a more generalist approach. Consider the type of work you need to be done and find a provider that specializes in that area.
+2. The size of your company: Another factor to consider is the size of your company. Large enterprises may need a different type of staffing and solution provider than small businesses or startups. Make sure you find a provider that can scale up or down according to your needs.
+3 . Your budget: Of course, budget is always a key consideration when choosing any kind of vendor or service provider. Make sure you understand the pricing model of any potential staffing or solutions provider before signing on the dotted line.
+4 . Location: Depending on your company's needs.
+</p>
         </div>
         <div id="remote">
           <h1>Remote Teams</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore tempore neque nulla modi, officiis mollitia nam illum voluptas, perspiciatis ab ad, debitis velit sunt! Quia eius dolor architecto optio distinctio atque debitis rerum esse tempora in officia cum minus totam ipsum tempore, et maxime? Iure dolore possimus eveniet illo?</p>
+          <p>The internet has changed the way we work. It’s made it possible for us to connect with people all over the world and collaborate on projects, regardless of location. This new way of working has given rise to remote teams - groups of workers who are based in different geographical locations but who come together virtually to work on a common goal. If you’re thinking of setting up a remote team or are already managing one, then this is for you. We’ll explore the benefits and challenges of remote teams, and share some tips on how to set them up and manage them effectively.
+          If you manage a remote team, you know the challenges that come with it. You're not in the same room (or even the same country) as your team, which makes communication and collaboration more difficult. And since you can't just pop over to someone's desk to ask a question, you have to be extra careful to make sure everyone is on the same page.
+But despite the challenges, there are plenty of benefits to managing a remote team. For one, you can hire the best talent from anywhere in the world. And since your team isn't tied to one location, they can be more flexible with their work hours and schedules.
+If you're thinking of making the switch to a remote team, here are services we provide to help you succeed:
+1. Establish clear communication channels
+With a remote team, there's no such thing as an impromptu meeting or quick chat by the coffee machine. So it's important to establish clear communication channels from the start. That way, everyone knows how and when to get in touch when they need to.
+2. Set expectations for availability
+Since your team members are spread out across different time zones, it's important to set expectations for availability from the start. Let them know what hours they should be available for meetings and calls, and what times they can take off or work flexibly. That way, everyone knows when they can expect a response.
+
+          </p>
         </div>
         <div id="occ">
           <h1>Offshore Cost Centers</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore tempore neque nulla modi, officiis mollitia nam illum voluptas, perspiciatis ab ad, debitis velit sunt! Quia eius dolor architecto optio distinctio atque debitis rerum esse tempora in officia cum minus totam ipsum tempore, et maxime? Iure dolore possimus eveniet illo?</p>
+          <p>Coming Soon.....</p>
         </div>
         <div id="odc">
           <h1>Offshore Development Centers</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore tempore neque nulla modi, officiis mollitia nam illum voluptas, perspiciatis ab ad, debitis velit sunt! Quia eius dolor architecto optio distinctio atque debitis rerum esse tempora in officia cum minus totam ipsum tempore, et maxime? Iure dolore possimus eveniet illo?</p>
+          <p>Coming Soon.....</p>
         </div>
         <div id="digital">
           <h1>Digital Marketing & SEO</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore tempore neque nulla modi, officiis mollitia nam illum voluptas, perspiciatis ab ad, debitis velit sunt! Quia eius dolor architecto optio distinctio atque debitis rerum esse tempora in officia cum minus totam ipsum tempore, et maxime? Iure dolore possimus eveniet illo?</p>
+          <p>It's no secret that SEO and digital marketing go hand-in-hand. After all, what's the point of putting in all the hard work to rank highly in search engine results pages if you're not going to take advantage of the traffic you get? But while the two disciplines are inextricably linked, they are also constantly evolving as Google and other search engines change their algorithms and as new technologies emerge. We provide services with the latest changes and trends in digital marketing and SEO, and how you can adapt our strategies to stay ahead of the curve.
+          Digital marketing is the process of using digital technologies to promote a product or service.We can help you to reach a wide audience through a variety of channels, including email, social media, search engines, and websites.
+It is an important part of any business's marketing strategy. It can be used to increase brand awareness, drive traffic to your website, and generate leads and sales. In order to be successful with digital marketing, we have multiple plans and implement it effectively.
+SEO is the practice of optimizing a website for Google search with the goal of earning higher web traffic levels and improving the visibility of the site. Digital marketing is the use of digital channels to promote or market products and services to consumers and businesses.
+Both digital marketing and SEO are important for any business that wants to be visible online, but they serve different purposes.Digital marketing is about driving traffic to your website, while SEO is about improving your website so that it ranks higher in search engine results pages (SERPs).
+A successful digital marketing campaign will take both digital marketing and SEO into account. If you want to improve your visibility online, invest in both!
+Here are few guidelines we follow for better services:
+1. Conduct keyword research
+2. Optimize your website for search engines
+3. Create high-quality content
+
+
+          </p>
         </div>
         <div id="lead">
           <h1>Lead Generation & Management</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore tempore neque nulla modi, officiis mollitia nam illum voluptas, perspiciatis ab ad, debitis velit sunt! Quia eius dolor architecto optio distinctio atque debitis rerum esse tempora in officia cum minus totam ipsum tempore, et maxime? Iure dolore possimus eveniet illo?</p>
+          <p>If you're in the business world, then you know that generating leads and managing them effectively is essential to success. But what exactly is lead generation, and how can you ensure that your lead management system is effective? In our service, we'll explore the concept of lead generation and offer custom templates on how to create an effective lead management system.
+          Lead generation is the process of identifying and nurturing potential customers, or leads, with the goal of eventually converting them into paying customers. Lead management is the process of organizing and tracking those leads to ensure that they are properly nurtured until they are ready to be converted into customers.
+There are a number of different ways to generate leads, including online marketing, cold calling, and word-of-mouth referrals. Once you have generated a lead, it is important to track that lead through the sales pipeline so that you can see how likely they are to convert into a paying customer. We have varieties of  lead management software platforms that can help you track your leads and keep them organized.
+Lead Management
+The goal of lead generation is to create interest in your product or service so that potential customers will want to learn more about what you have to offer. Lead management is the process of nurturing these potential customers through the sales cycle so that they eventually make a purchase.
+We utilize a number of strategies that can help you to generate leads, such as online advertising, search engine optimization, and content marketing. Once you have generated some leads, it’s important to manage them effectively so that you can maximize your chances of making a sale.
+Some Services for effective lead management includes:
+1. Qualifying your leads
+2.Nurturing your leads
+3. Following up
+          </p>
         </div>
       </div>
       

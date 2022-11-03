@@ -283,9 +283,7 @@
 
 /* ********************* Services Component ****************** */
 
-.services-component{
-  height: 200vh;
-}
+
 
 .Services-Nav{
   display: flex;
@@ -524,19 +522,14 @@
 
 /* Small screens, laptops. */
 @media only screen and (min-width:769px) and (max-width:1024px){
-  /* .carousel{
+  .carousel{
     width: 90%;
     margin: 0 auto;
     height: 200px;
-
+    border: 1px solid red;
   }
 
-  .carousel-main{
-    position: absolute;
-    top: -500px;
-    left: 0;
-    width: 100%;
-  }
+  
 
   .hire-buttons{
     position: absolute;
@@ -547,7 +540,7 @@
     height: 200px;
     justify-content: space-between;
     align-items: center;
-  } */
+  }
 }
 
 
