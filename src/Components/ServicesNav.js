@@ -6,7 +6,7 @@ const ServicesNav = () => {
   return (
     <div className='Services-Nav'>
         <HashLink to='#global' className='hash-link'>Global Recruiting</HashLink>
-        <HashLink to='#staffsol' className='hash-link'>Staffship & Solutions</HashLink>
+        <HashLink to='#staffsol' className='hash-link'>Staffing & Solutions</HashLink>
         <HashLink to='#remote' className='hash-link'>Remote Teams</HashLink>
         <HashLink to='#occ' className='hash-link'>Offshore Cost Centers</HashLink>
         <HashLink to='#odc' className='hash-link'>Offshore Development Centers</HashLink>
