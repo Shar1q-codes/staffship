@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from 'framer-motion';
 // import { Link } from 'react-router-dom';
 import comp from './Images/comp-logo.png'
+import hero from './Images/hero.jpg'
 
 const Home = () => {
   return (
@@ -72,6 +73,44 @@ const Home = () => {
                         <img src={comp} alt='comp' className='trusted-img'/>
                     </div>
                 </div>
+                
+                </div>
+                <div className='home-services-container'>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
+                    <div>
+                        <img src={hero} alt="img"/>
+                        <h3>Global Recruitment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ad rem asperiores dolor? Nisi molestiae dolorem quaerat magnam delectus soluta eos doloremque, recusandae ea eius.</p>
+                    </div>
             </div>
         
     </motion.div>
