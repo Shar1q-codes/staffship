@@ -542,6 +542,7 @@
 
   .home-services-container div{
     width: 100%;
+    margin-left: 0;
   }
 
   /* *******************Contact Component******************** */
@@ -670,6 +671,7 @@
 
   .home-services-container div{
     width: 100%;
+    margin-left: 0;
   }
 
   /* ****************Contact component***************** */
