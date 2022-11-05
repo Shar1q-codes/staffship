@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { motion } from 'framer-motion';
 // import { Link } from 'react-router-dom';
-// import comp from './Images/comp-logo.png'
+// 
 import hero from './Images/hero.jpg'
 import lead from './Images/lead-home.png'
 import dmseo from './Images/Dmseo.png'

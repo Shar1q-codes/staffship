@@ -356,13 +356,15 @@
   margin: 0 auto;
 }
 
-.services-container div{
+.individual-service-container{
   margin-top: 50px;
-  border: .5px solid black;
+  box-shadow: 0 0 5px 1px black;
+  border-radius: 10px;
 }
 
 .services-container div p{
-  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .services-container div h1{
@@ -374,6 +376,18 @@
   line-height: 30px;
 }
 
+.service-comp-image{
+  width: 50%;
+  text-align: center;
+  height: 300px;
+  padding: 10px;
+}
+
+.service-comp-image-container{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 /* ************Footer********************* */
@@ -498,6 +512,10 @@
 
   .header-container{
     flex-direction: column;
+  }
+
+  .nav-services-link:hover .inner-link{
+    display: none;
   }
 
 
@@ -630,6 +648,10 @@
 
   .header-container{
     flex-direction: column;
+  }
+
+  .nav-services-link:hover .inner-link{
+    display: none;
   }
 
 

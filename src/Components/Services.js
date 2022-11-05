@@ -1,13 +1,22 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
+// import comp from './Images/comp-logo.png'
+import g2 from './Images/g2.webp'
+import staffing from './Images/staffing3.png'
+import remote from './Images/remote1.jpg'
+import occ from './Images/occ.jpg'
+import odc from './Images/odc.jpeg'
+import digital from './Images/digital.webp'
+import lead from './Images/lead.png'
 
 const Services = () => {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className='services-component'>
      
       <div className='services-container'>
-        <div id='global'>
+        <div id='global' className='individual-service-container'>
+          <div className='service-comp-image-container'><img src={g2} alt='background_Image' className='service-comp-image' /></div>
+          
           <h1>Global Recruiting</h1>
           <p>We specialize in Direct Hire, full time Global Management Consultants and Outsourcing executives.</p>
 
@@ -18,7 +27,8 @@ const Services = () => {
           <p>Our primary candidate-focus is in Strategy & transformation, Practice Building and Solution Sales & Delivery with subject matter expertise in Business Solutions, ERP technology integrations and/or APO, BPO and ITO outsourcing. Our candidates understand the highly mobile, fast-paced lifestyle of top management consultants. They are driven to be leaders in their field and will only consider top brand name firms.
           </p>
         </div>
-        <div id="staffsol">
+        <div id="staffsol" className='individual-service-container'>
+        <div className='service-comp-image-container'><img src={staffing} alt='background_Image' className='service-comp-image' /></div>
           <h1>Staffing & Solutions</h1>
           <p>It's no secret that the staffing and solutions industry is in a state of flux.</p>
           <p>The traditional models of staffing and solutions providers are under pressure as companies look for more efficient, effective ways to get work done. At the same time, new entrants to the market are shaking things up with innovative approaches to staffing and solution provision.</p>
@@ -32,7 +42,8 @@ const Services = () => {
 
           
         </div>
-        <div id="remote">
+        <div id="remote" className='individual-service-container'>
+        <div className='service-comp-image-container'><img src={remote} alt='background_Image' className='service-comp-image' /></div>
           <h1>Remote Teams</h1>
           <p>The internet has changed the way we work. It’s made it possible for us to connect with people all over the world and collaborate on projects, regardless of location. This new way of working has given rise to remote teams - groups of workers who are based in different geographical locations but who come together virtually to ,work on a common goal.</p>
            <p>If you’re thinking of setting up a remote team or are already managing one, then this is for you. We’ll explore the benefits and challenges of remote teams, and share some tips on how to set them up and manage them effectively.</p>
@@ -51,15 +62,18 @@ const Services = () => {
 
          
         </div>
-        <div id="occ">
+        <div id="occ" className='individual-service-container'>
+        <div className='service-comp-image-container'><img src={occ} alt='background_Image' className='service-comp-image' /></div>
           <h1>Offshore Cost Centers</h1>
           <p>Coming Soon.....</p>
         </div>
-        <div id="odc">
+        <div id="odc" className='individual-service-container'>
+        <div className='service-comp-image-container'><img src={odc} alt='background_Image' className='service-comp-image' /></div>
           <h1>Offshore Development Centers</h1>
           <p>Coming Soon.....</p>
         </div>
-        <div id="digital">
+        <div id="digital" className='individual-service-container'>
+        <div className='service-comp-image-container'><img src={digital} alt='background_Image' className='service-comp-image' /></div>
           <h1>Digital Marketing & SEO</h1>
           <p>It's no secret that SEO and digital marketing go hand-in-hand. After all, what's the point of putting in all the hard work to rank highly in search engine results pages if you're not going to take advantage of the traffic you get? But while the two disciplines are inextricably linked, they are also constantly evolving as Google and other search engines change their algorithms and as new technologies emerge. We provide services with the latest changes and trends in digital marketing and SEO, and how you can adapt our strategies to stay ahead of the curve.</p>
           <p>Digital marketing is the process of using digital technologies to promote a product or service.We can help you to reach a wide audience through a variety of channels, including email, social media, search engines, and websites.</p>
@@ -78,7 +92,8 @@ const Services = () => {
 
           
         </div>
-        <div id="lead">
+        <div id="lead" className='individual-service-container'>
+        <div className='service-comp-image-container'><img src={lead} alt='background_Image' className='service-comp-image' /></div>
           <h1>Lead Generation & Management</h1>
           <p>If you're in the business world, then you know that generating leads and managing them effectively is essential to success. But what exactly is lead generation, and how can you ensure that your lead management system is effective? In our service, we'll explore the concept of lead generation and offer custom templates on how to create an effective lead management system.</p>
           <p>Lead generation is the process of identifying and nurturing potential customers, or leads, with the goal of eventually converting them into paying customers. Lead management is the process of organizing and tracking those leads to ensure that they are properly nurtured until they are ready to be converted into customers.
