@@ -8,7 +8,7 @@ const ContactUs = () => {
 
         <h1 className='contact-info-heading'>Contact Us</h1>
 
-        <p className='contact-info'>Email : mohammed.khaleel@staffship.in</p>
+        <p className='contact-info'>Email : contactus@staffship.in</p>
 
         <p className='contact-info'>Contact : India : +91 9700904807</p>
 

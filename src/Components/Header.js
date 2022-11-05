@@ -22,7 +22,17 @@ const Header = () => {
           </div>
             <ul className='nav-bar' ref={navRef} onClick={showNav}>
                 <Link to='/'><li className='noselect' >Home</li></Link> 
-                <Link to='/OurServices'><li className='noselect'>Our Services</li></Link>
+                <Link to='/OurServices'><li className='noselect nav-services-link'>Our Services
+                <div className='inner-link'><ul>
+                  <li>Global Recruitment</li>
+                  <li>Staffing & Solutions</li>
+                  <li>Remote Teams</li>
+                  <li>Offshore Cost Centers</li>
+                  <li>Offshore Development Centers</li>
+                  <li>Digital Marketing & SEO</li>
+                  <li>Lead Generation & Management</li>
+                </ul></div>
+                </li></Link>
                 <Link to='/AboutUs'><li className='noselect' >About Us</li></Link>
                 <Link to='/ContactUs'><li className='noselect'>Contact Us</li></Link>
                 <div className='toggle bar'>
