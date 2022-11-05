@@ -586,6 +586,13 @@
     
   }
 
+  .service-comp-image{
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+  }
+
 
 /* ************Footer********************* */
 
